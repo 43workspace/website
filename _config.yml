@@ -1,7 +1,7 @@
 # site settings
 title: 43 Work Space
 subtitle: Coworking hub in Bengaluru 43
-email: no-reply@43work.space
+email: partners@43work.space
 description: Coworking hub in Bengaluru 43
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
