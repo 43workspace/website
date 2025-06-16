@@ -1,7 +1,7 @@
 ---
-title: Landing
+title: Private Cabins
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+description: 'Plug and play private office cabins. Focus on running your business, not the office'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
