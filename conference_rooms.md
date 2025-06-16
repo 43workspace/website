@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Conference Room
+title: Video Conferencing & Meeting Rooms
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
