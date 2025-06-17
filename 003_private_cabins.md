@@ -1,8 +1,8 @@
 ---
-title: Private Cabins. Plug & Play
+title: Private Cabins
 layout: landing
-description: ' Focus on running your business, not the office'
-image: assets/images/pic07.jpg
+description: 'Fully managed, plug and play offices.'
+#image: assets/images/pic07.jpg
 nav-menu: true
 ---
 

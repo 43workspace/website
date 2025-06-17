@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Video Conferencing & Meeting Rooms
-image: assets/images/pic01.jpg
+title: Conference Room
+#image: assets/images/pic01.jpg
+description: Fully equipped meeting room with video conferencing. Available by the hour.
 nav-menu: true
 ---
 
