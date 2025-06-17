@@ -2,7 +2,7 @@
 title: Private Cabins
 layout: landing
 description: 'Fully managed, plug and play offices.'
-#image: assets/images/pic07.jpg
+image: assets/images/pcabin.jpg
 nav-menu: true
 ---
 

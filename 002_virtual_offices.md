@@ -2,7 +2,7 @@
 layout: post
 title: Virtual Offices
 description: Registered office for individuals and companies. Mail handling, virtual number and meeting room benefits.
-# image: assets/images/pic11.jpg
+image: assets/images/voffice.jpg
 nav-menu: true
 ---
 
