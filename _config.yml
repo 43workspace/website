@@ -3,7 +3,7 @@ title: 43 Work Space
 subtitle: Coworking hub in Bengaluru 43
 email: partners@43work.space
 description: Coworking hub in Bengaluru 43
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: STE1, 232, 2nd floor, 9th Main Road, Kalyan Nagar
