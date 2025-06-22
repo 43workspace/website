@@ -16,19 +16,20 @@
 
 			> :nth-child(2n - 1) {
 				@include padding(4em, 0, (0, 3em, 0, 0));
-				border-right: solid 1px _palette(border);
-				width: 60%;
+				// border-right: solid 1px _palette(border);
+				width: 100%;
 				z-index: 1;
 			}
 
 			> :nth-child(2n) {
 				padding-left: 3em;
-				width: 40%;
+				width: 100%;
 			}
 
 			> .split {
 				padding: 0;
-
+				display: flex;
+				justify-content: space-between;
 				> * {
 					@include padding(3em, 0, (0, 0, 0, 3em));
 					position: relative;
@@ -43,12 +44,13 @@
 						width: calc(100vw + 3em);
 					}
 				}
-
+				
 				> :first-child {
 					&:before {
 						display: none;
 					}
 				}
+				
 			}
 		}
 
@@ -68,13 +70,13 @@
 				}
 
 				> .split {
+					display: block;
 					> * {
 						@include padding(3em, 0, (0, 0, 0, 0));
 
 						&:before {
 						}
 					}
-
 					> :first-child {
 						&:before {
 							display: block;
