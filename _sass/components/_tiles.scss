@@ -41,8 +41,12 @@
 			}
 
 			header {
-				position: relative;
 				z-index: 3;
+				.tiles-cta{
+					position: absolute;
+					bottom: 14px;
+					right: 14px;
+				}
 			}
 
 			h3 {
