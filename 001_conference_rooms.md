@@ -15,10 +15,9 @@ nav-menu: true
 	<div class="inner">
 		
 <!-- Elements -->
-<h2 id="elements">Features</h2>
 <div class="row 200%">
-	<div class="6u 12u$(medium)">
-
+	<div class="5u 12u$(medium)">
+	<h2 id="elements">Features</h2>
 <!-- Text stuff -->
 
 <ul>
@@ -31,11 +30,11 @@ nav-menu: true
 
 
 </div>
-<div class="6u$ 12u$(medium)">
+<div class="7u$ 12u$(medium)">
 
 
 <!-- Form -->
-<h3>Form</h3>
+<h2>Form</h2>
 
 <div class="google-form-container">
 <!-- Google Calendar Appointment Scheduling begin -->
