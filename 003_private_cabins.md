@@ -1,7 +1,7 @@
 ---
 title: Private Cabins
 layout: landing
-cta_title: Book Your Private Cabin
+cta_title: Setup a managed office
 description: 'Fully managed, plug and play offices.'
 image: assets/images/pcabin.jpg
 nav-menu: true

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Conference Room
-cta_title: Book Your Conference Room
+cta_title: Book a meeting
 image: assets/images/croom.jpg
 description: Fully equipped meeting room with video conferencing. Available by the hour.
 nav-menu: true

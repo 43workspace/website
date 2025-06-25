@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Virtual Offices
-cta_title: Book Your Virtual Office
+cta_title: Setup a VO
 description: Registered office for individuals and companies. Mail handling, virtual number and meeting room benefits.
 image: assets/images/voffice.jpg
 nav-menu: true
