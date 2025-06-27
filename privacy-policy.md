@@ -1,5 +1,5 @@
 ---
-title: Terms & Conditions
+title: Privacy Policy
 layout: landing
 cta_title: About us
 description: 'Coworking hub in Bengaluru 43'
