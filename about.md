@@ -1,5 +1,5 @@
 ---
-title: 43 works
+title: About 43 works
 layout: landing
 cta_title: About us
 description: 'Coworking hub in Bengaluru 43'

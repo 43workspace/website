@@ -17,14 +17,18 @@ nav-menu: true
 <!-- Elements -->
 <div class="row 200%">
 	<div class="5u 12u$(medium)">
-	<h2 id="elements">Features</h2>
+	<h2 id="elements">Conference Room Access</h2>
 <!-- Text stuff -->
 
+
+<p>43 Workspace is equipped with a 9-seater board room, modern video-conferencing suite, polycom and a whiteboard.</p>
+
 <ul>
-	<li>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</li>
-	<li>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</li>
-	<li>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</li>
-	<li>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</li>
+<li>43work.space members with a managed office get a credit of 2 hours per seat per month. <a href="https://app.43work.space">Sign in</a> to book your meetings and review your credits.</li>
+<li>Meeting room credits do not carry forward. Bookings are on first-come first-serve basis</li>
+<li>Meetings must end 5 mins early ("speedy meetings") in order to facilitate smooth transition. Members are expected to adhere to this etiquette</li>
+<li>Non-members can send a booking request using the form on this page. If your slot is available, you will receive an email with a payment link. Upon confirmation, you will receive a confirmed calendar slot. If you face payment issues, get in touch with us on <em>partners at 43work dot space</em></li>
+
 </ul>
 
 
@@ -34,7 +38,7 @@ nav-menu: true
 
 
 <!-- Form -->
-<h2>Form</h2>
+<h2>Schedule Request</h2>
 
 <div class="google-form-container">
 <!-- Google Calendar Appointment Scheduling begin -->
