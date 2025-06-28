@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        {% include header.html %}
+        {% if page.image or page.description %}
+        <section id="banner" class="style2">
+            <div class="inner">
+                <span class="image">
+                    <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+                </span>
+                <header class="major">
+                    <h1>{{ page.title }}</h1>
+                </header>
+                <div class="content">
+                    {{ page.description }}
+                </div>
+            </div>
+        </section>
+        {% endif %}
+        <div id="main" class="alt">
+            <section id="one">
+                <div class="inner">
+                    <div class="row 200%">
+                        <div class="5u 12u$(medium)">
+                            {{ content }}
+                        </div>
+                        <div class="7u$ 12u$(medium)">
+                            {% if page.iframe_src %}
+                            <h2>Enquiry</h2>
+                            <div class="google-form-container">
+                                <iframe src="{{ page.iframe_src }}" frameborder="0" marginheight="0" marginwidth="0" loading="lazy">Loading…</iframe>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        {% include footer.html %}
+    </body>
+</html>
