@@ -14,7 +14,7 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
         <div class="row 200%">
-            <div class="5u 12u$(medium)">
+            <div class="5u 12u$(medium)" markdown="1">
             <h2 id="elements">Private Cabins</h2>
                 <ul>
 		<li>43works has plug and playd cabins, with capcity from 2 to 7 seaters.</li>
