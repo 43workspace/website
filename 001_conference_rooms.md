@@ -5,7 +5,7 @@ cta_title: Book a meeting
 image: assets/images/croom.jpg
 description: Fully equipped meeting room with video conferencing. Available by the hour.
 nav-menu: true
-iframe_src: https://calendar.google.com/calendar/appointments/schedules/AcZssZ0CPoiH9hhl7ungj7yjUAUfgk1-kPtRyDV1kNBCyQs0suAtqjj4Ze8KE6DJ-HeojZJ9gr-6yLiU?gv=true
+iframe_src: https://script.google.com/a/macros/43work.space/s/AKfycbwOBY-WoeVsBaP3_00ETkMdna9E7kLp-JF2JjNsWoXz2iKigxkrjSOMSvlVZna6ckQPGQ/exec
 ---
 
 ### Conference Room Access
@@ -28,5 +28,5 @@ A: Non-members can request a slot using the form below and will receive a paymen
 | Plan | Rate |
 | --- | --- |
 | Member credits | 2 hr/seat included per month |
-| Extra member hours | Contact us |
-| Non-members | Contact us |
+| Extra member hours | Rs 500/hr |
+| Non-members | Rs 500/hr |
