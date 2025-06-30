@@ -33,9 +33,9 @@ show_tile: false
 					<h3>Incubator attached</h3>
 				</header>
 				<p>Comonad.ai invests in early stage SaaS & AI startups. Gain access to a network of angel investors and seasoned operators in the India-US corridor.</p>
-				<ul class="actions">
-					<li><a href="https://comonad.ai" class="button">Incubation services</a></li>
-				</ul>
+				<!--ul class="actions">
+					<li><a href="https://www.comonad.ai" class="button">Incubation services</a></li>
+				</ul-->
 			</div>
 		</div>
 	</section>
