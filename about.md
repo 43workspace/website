@@ -49,9 +49,6 @@ show_tile: false
 					<h3>Manage business, not office</h3>
 				</header>
 				<p>Fully managed private cabins. Board room with video-conferencing. High speed internet. Power back up. Lift. Everything you need in an office without the hassles of managing it.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
 			</div>
 		</div>
 	</section>
@@ -65,9 +62,6 @@ show_tile: false
 					<h3>Fellow travelers on the floor</h3>
 				</header>
 				<p>Protip: may lead to good conversations, networking, synergies and business.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
 			</div>
 		</div>
 	</section>
