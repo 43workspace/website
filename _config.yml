@@ -6,7 +6,7 @@ description: Coworking hub in Bengaluru 43
 baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: FORTY THREE WORKLABS VENTURES LLP, STE1, 232, 2nd floor, 9th Main Road, Kalyan Nagar
+street_address: FORTY THREE WORKLABS VENTURES LLP <br/>STE1, 232, 2nd floor, 9th Main Road, Kalyan Nagar
 city: Bangalore
 state: KA
 zip_code: 560043
