@@ -40,3 +40,62 @@
 			}
 		}
 	}
+
+/* Contact section layout: move map into right column and tighten spacing */
+
+section#contact {
+	.contact-grid {
+		display: grid;
+		grid-template-columns: 1fr 55%;
+		gap: 2.5em;
+		align-items: start;
+		padding-top: 2em;
+		padding-bottom: 2em;
+
+		@include breakpoint(medium) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.contact-methods {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1.25em;
+	}
+
+	.contact-method {
+		display: flex;
+		align-items: flex-start;
+		gap: 1em;
+
+		.icon {
+			font-size: 1.4em;
+			margin-top: 0.2em;
+		}
+
+		.method-content {
+			flex: 1;
+		}
+
+		h3 {
+			margin: 0 0 0.4em 0;
+			font-size: 1.1rem;
+		}
+	}
+
+	.map-container {
+		width: 100%;
+		height: auto;
+		border-radius: _size(border-radius);
+		overflow: hidden;
+		box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+		justify-self: center;
+	}
+
+	.contact-map {
+		width: 100% !important;
+		height: 420px !important;
+		max-width: none !important;
+	}
+
+}

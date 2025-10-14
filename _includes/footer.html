@@ -1,65 +1,53 @@
 <!-- Contact -->
 <section id="contact">
 	<div class="inner">
-		<!-- <section>
-			<form action="https://formspree.io/{{ site.email }}" method="POST">
-				<div class="field half first">
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
+		<div class="contact-grid">
+			<div class="contact-info">
+				<div class="contact-methods">
+					<div class="contact-method">
+						<span class="icon alt fa-envelope"></span>
+						<div class="method-content">
+							<h3>Email</h3>
+							<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+						</div>
+					</div>
+					<div class="contact-method">
+						<span class="icon alt fa-phone"></span>
+						<div class="method-content">
+							<h3>Phone</h3>
+							<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+						</div>
+					</div>
+					<div class="contact-method address">
+						<span class="icon alt fa-home"></span>
+						<div class="method-content">
+							<h3>Address</h3>
+							<span>
+							{% if site.street_address %}
+								{{ site.street_address }}<br />
+							{% endif %}
+							{% if site.city %}
+								{{ site.city }},
+							{% endif %}
+							{% if site.state %}
+								{{ site.state }}
+							{% endif %}
+							{% if site.zip_code %}
+								{{ site.zip_code }}<br />
+							{% endif %}
+							{% if site.country %}
+								{{ site.country }}
+							{% endif %}
+							</span>
+						</div>
+					</div>
 				</div>
-				<div class="field half">
-					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
-				</div>
-				<div class="field">
-					<label for="message">Message</label>
-					<textarea name="message" id="message" rows="6"></textarea>
-				</div>
-				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
-					<li><input type="reset" value="Clear" /></li>
-				</ul>
-			</form>
-		</section> -->
-		<section class="split">
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>
-					{% if site.street_address %}
-					    {{ site.street_address }}<br />
-					{% endif %}
-					{% if site.city %}
-					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
-					    {{ site.state }} 
-					{% endif %}
-					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
-					{% endif %}
-					{% if site.country %}
-					    {{ site.country }}
-					{% endif %}
-					</span>
-				</div>
-			</section>
-		</section>
+			</div>
+			<div class="map-container">
+				<!-- Business embed from Google (provided) - responsive width, explicit height to avoid clipping -->
+				<iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2869855930317!2d77.64492817569842!3d13.017387687302195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17cad9024d6b%3A0x3a7df12843a5dc3e!2s43%20Workspace!5e0!3m2!1sen!2sin!4v1760454003157!5m2!1sen!2sin" width="100%" height="420" style="border:0; max-width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
 	</div>
 </section>
 

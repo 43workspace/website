@@ -1,0 +1,66 @@
+<!-- WhatsApp Chat Widget -->
+<div id="whatsapp-widget" class="whatsapp-widget">
+    <a href="https://wa.me/917483256634?text=Hi%2C%20I%27m%20interested%20in%20knowing%20more%20about%2043%20Workspace" 
+       target="_blank"
+       rel="noopener noreferrer"
+       class="whatsapp-button">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-text">Chat with us</span>
+    </a>
+</div>
+
+<style>
+.whatsapp-widget {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    pointer-events: auto;
+}
+
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    background-color: #22c15e;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.whatsapp-button .fab-whatsapp {
+    font-size: 28px;
+    margin-right: 8px;
+    color: white !important;
+}
+
+.whatsapp-text {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 736px) {
+    .whatsapp-text {
+        display: none;
+    }
+    
+    .whatsapp-button {
+        padding: 12px;
+        border-radius: 50%;
+    }
+    
+    .whatsapp-button .fa-whatsapp {
+        margin-right: 0;
+    }
+}
+</style>

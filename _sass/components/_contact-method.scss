@@ -20,4 +20,12 @@
 		h3 {
 			margin: 0 0 (_size(element-margin) * 0.25) 0;
 		}
+
+		.map-container {
+			margin-top: _size(element-margin);
+			width: 100%;
+			border-radius: _size(border-radius);
+			overflow: hidden;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		}
 	}
