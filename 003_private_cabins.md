@@ -22,7 +22,7 @@ A: Access is available from 7 am – 10 pm.
 A: Yes, you may use the facility as your official address.
 
 **Q: Are meeting room credits included?**  
-A: Each seat includes 2 hours of meeting room credit every month, booked in advance.
+A: Each seat includes 1 hour of meeting room credit every month, booked in advance.
 
 **Q: How much do private cabins cost?**
 

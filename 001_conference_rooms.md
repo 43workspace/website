@@ -18,7 +18,7 @@ iframe_src: https://script.google.com/macros/s/AKfycbwf0SJ525HtSLhHBa6M0plk40INF
 A: 43 Workspace has a 9-seater board room with video conferencing, polycom and a whiteboard.
 
 **Q: How do members use meeting room credits?**  
-A: Members with a managed office receive 2 hours per seat each month. Sign in to book and review credits. Credits do not carry forward and meetings must end 5 minutes early.
+A: Members with a managed office receive 1 hour per seat each month. Sign in to book and review credits or use your coupon code. Credits do not carry forward and meetings must end 5 minutes early.
 
 **Q: Can non-members book the room?**  
 A: Non-members can request a slot using the form below and will receive a payment link if the slot is available.
@@ -27,6 +27,6 @@ A: Non-members can request a slot using the form below and will receive a paymen
 
 | Plan | Rate |
 | --- | --- |
-| Member credits | 2 hr/seat included per month |
+| Member credits | 1 hr/seat included per month |
 | Extra member hours | Rs 500/hr |
 | Non-members | Rs 500/hr |
