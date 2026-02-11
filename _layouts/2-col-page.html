@@ -26,7 +26,14 @@
                             {{ content }}
                         </div>
                         <div class="7u$ 12u$(medium)">
-                            {% if page.iframe_src %}
+                            {% if page.cta %}
+                            <div class="cta-section">
+                                <div class="cta-content">
+                                    <h2>{{ page.cta }}</h2>
+                                    <a href="{{ page.cta_link }}" class="button special big">{{ page.cta_link_text }}</a>
+                                </div>
+                            </div>
+                            {% elsif page.iframe_src %}
                             <h2>Get in touch</h2>
                             <div class="google-form-container">
                                 <iframe src="{{ page.iframe_src }}" frameborder="0" marginheight="0" marginwidth="0" loading="lazy">Loading…</iframe>

@@ -5,7 +5,10 @@ cta_title: Book a meeting
 image: assets/images/croom.jpg
 description: Fully equipped meeting room with video conferencing. Available by the hour.
 nav-menu: true
-iframe_src: https://script.google.com/macros/s/AKfycbwf0SJ525HtSLhHBa6M0plk40INFAM9IBGd5LRNZVa0vCiV1Xn6SWIdF1DPmNMoykLxvQ/exec
+cta: Login to book
+cta_link_text: Book Now
+cta_link: https://app.43work.space
+# iframe_src: https://script.google.com/macros/s/AKfycbwf0SJ525HtSLhHBa6M0plk40INFAM9IBGd5LRNZVa0vCiV1Xn6SWIdF1DPmNMoykLxvQ/exec
 ---
 
 ### Conference Room Access
@@ -25,8 +28,8 @@ A: Non-members can request a slot using the form below and will receive a paymen
 
 **Q: What does it cost?**
 
-| Plan | Rate |
-| --- | --- |
-| Member credits | 1 hr/seat included per month |
-| Extra member hours | Rs 500/hr |
-| Non-members | Rs 500/hr |
+| Plan               | Rate                         |
+| ------------------ | ---------------------------- |
+| Member credits     | 1 hr/seat included per month |
+| Extra member hours | Rs 500/hr                    |
+| Non-members        | Rs 500/hr                    |
