@@ -22,10 +22,12 @@
             <section id="one">
                 <div class="inner">
                     <div class="row 200%">
-                        <div class="5u 12u$(medium)">
+                        {% assign left_col_classes = page.left_col_classes | default: '5u 12u$(medium)' %}
+                        {% assign right_col_classes = page.right_col_classes | default: '7u$ 12u$(medium)' %}
+                        <div class="{{ left_col_classes }}">
                             {{ content }}
                         </div>
-                        <div class="7u$ 12u$(medium)">
+                        <div class="{{ right_col_classes }}">
                             {% if page.cta %}
                             <div class="cta-section">
                                 <div class="cta-content">

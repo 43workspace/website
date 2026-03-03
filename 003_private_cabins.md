@@ -1,11 +1,13 @@
 ---
-title: Private Cabins
 layout: 2-col-page
+title: Private Cabins
 cta_title: Setup a managed office
 description: 'Fully managed, plug and play offices.'
 image: assets/images/pcabin.jpg
 nav-menu: true
 iframe_src: https://docs.google.com/forms/d/e/1FAIpQLSdCudziqbcuOcKr93lg2N4wKiR_eyY8ccHJlJjCCDnutMI4_A/viewform?embedded=true
+left_col_classes: '7u 12u$(medium)'
+right_col_classes: '5u$ 12u$(medium)'
 ---
 
 ### Private Cabins
