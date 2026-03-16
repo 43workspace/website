@@ -146,6 +146,10 @@
 					background-color: _palette(accent6);
 				}
 			}
+
+			&.full-width {
+				width: 100% !important;
+			}
 		}
 
 		@include breakpoint(large) {
