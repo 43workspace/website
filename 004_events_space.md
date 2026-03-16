@@ -2,7 +2,7 @@
 layout: 2-col-page
 title: Events Space
 cta_title: Book an event
-image: assets/images/croom.jpg
+image: assets/images/event-space.jpeg
 description: Flexible events space for workshops, meetups and small gatherings. Available by the hour or session.
 nav-menu: true
 cta: Login to book
