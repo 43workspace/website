@@ -1,6 +1,6 @@
 ---
 title: Terms & Conditions
-layout: landing
+layout: page
 cta_title: About us
 description: 'Coworking hub in Bengaluru 43'
 image: assets/images/pcabin.jpg
