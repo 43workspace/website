@@ -11,6 +11,7 @@
 
 	.clients-track {
 		display: flex;
+		gap: 1.5rem;
 		width: max-content;
 		animation: clients-scroll 26s linear infinite;
 	}
@@ -80,6 +81,7 @@
 
 	@include breakpoint(small) {
 		.clients-track {
+			gap: 1rem;
 			animation-duration: 20s;
 		}
 
