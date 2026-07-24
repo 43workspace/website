@@ -1,6 +1,6 @@
 ---
 title: About 43 works
-layout: landing
+layout: page
 cta_title: About us
 description: 'Coworking hub in Bengaluru 43'
 image: assets/images/pcabin.jpg
@@ -25,7 +25,7 @@ show_tile: false
 <section id="two" class="spotlights">
 	<section>
                 <a href="generic.html" class="image">
-                        <img src="{% link assets/images/croom.jpg %}" alt="" data-position="center center" />
+                        <img src="{% link assets/images/meeting-room.jpeg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
