@@ -10,6 +10,8 @@ iframe_src: https://docs.google.com/forms/d/e/1FAIpQLSdCudziqbcuOcKr93lg2N4wKiR_
 
 ### Private Cabins
 
+Move in and start working — private cabins come fully furnished with high-speed internet, power backup and lift access, plus monthly meeting room credits. Available in 2 to 7 seater configurations, so you can start small and grow without changing addresses.
+
 ### FAQ
 
 **Q: What is the seating capacity of private cabins?**  

@@ -57,5 +57,13 @@
 				line-height: 3.5em;
 			}
 		}
+
+		.actions li {
+			margin-bottom: 1em;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
 	}
 }

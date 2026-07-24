@@ -10,6 +10,8 @@ iframe_src: https://docs.google.com/forms/d/e/1FAIpQLSdCudziqbcuOcKr93lg2N4wKiR_
 
 ### Register a Virtual Office
 
+A virtual office gives your business a compliant, registered address in Kalyan Nagar, Bengaluru — without the overhead of a physical seat. We handle your incoming mail and keep you GST-compliant, with an optional virtual phone number and tax advisory support if you need it.
+
 ### FAQ
 
 **Q: What is a virtual office?**  

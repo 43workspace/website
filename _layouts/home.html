@@ -10,14 +10,15 @@
 
     <!-- Banner -->
     <section id="banner" class="major">
-        <div class="inner">
+        <div class="inner centered">
             <header class="major">
                 <h1>{{ page.landing-title }}</h1>
             </header>
-            <div class="content">
+            <div class="content stacked">
                 <p style="text-transform: uppercase;">{{ site.description }}</p>
                 <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                    <li><a href="https://wa.me/{{ site.phone | remove: '+' | remove: '-' }}?text=Hi%2C%20I%27d%20like%20to%20book%20a%20tour%20of%2043%20Workspace" class="button special" target="_blank" rel="noopener noreferrer">Book a Tour</a></li>
+                    <li><a href="https://app.43work.space" class="button">Members Login</a></li>
                 </ul>
             </div>
         </div>
