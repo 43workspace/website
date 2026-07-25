@@ -1,0 +1,97 @@
+///
+/// 43 Workspace
+///
+
+/* Offering hero */
+
+	.offering-hero {
+		background-color: _palette(bg-alt);
+		background-position: center;
+		background-size: cover;
+		border-bottom: solid 1px _palette(border);
+		position: relative;
+
+		.offering-hero-overlay {
+			background-color: _palette(bg);
+			bottom: 0;
+			left: 0;
+			opacity: 0.82;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+
+		.offering-hero-inner {
+			align-items: flex-end;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 1.5em;
+			justify-content: space-between;
+			min-height: 14em;
+			padding: 7em 0 2.5em 0;
+			position: relative;
+			z-index: 1;
+		}
+
+		.offering-hero-text {
+			max-width: 30em;
+
+			h1 {
+				font-size: 2.25em;
+				margin-bottom: 0.35em;
+			}
+
+			.maxim {
+				color: rgba(255, 255, 255, 0.75);
+				font-size: 1.15em;
+				margin-bottom: 0;
+			}
+		}
+
+		.offering-hero-cta {
+			.button {
+				white-space: nowrap;
+			}
+		}
+
+		@include breakpoint(small) {
+			.offering-hero-inner {
+				padding: 6em 0 2em 0;
+			}
+
+			.offering-hero-text h1 {
+				font-size: 1.75em;
+			}
+		}
+	}
+
+/* Offering features */
+
+	.offering-features {
+		border-bottom: solid 1px _palette(border);
+		padding: 2.5em 0;
+	}
+
+/* Offering page layout */
+
+	.offering-layout {
+		display: flex;
+		align-items: flex-start;
+		gap: 3.5em;
+		padding: 3em 0;
+
+		.offering-main {
+			flex: 1 1 60%;
+			min-width: 0;
+		}
+
+		.offering-faq {
+			flex: 1 1 35%;
+			min-width: 0;
+		}
+
+		@include breakpoint(medium) {
+			flex-direction: column;
+			gap: 2.5em;
+		}
+	}

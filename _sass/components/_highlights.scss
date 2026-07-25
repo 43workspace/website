@@ -1,0 +1,45 @@
+///
+/// 43 Workspace
+///
+
+/* Highlights */
+
+	ul.highlights {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		gap: 1.75em 3em;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: flex;
+			align-items: center;
+			padding-left: 0;
+		}
+
+		.icon {
+			flex-shrink: 0;
+			margin-right: 0.85em;
+
+			&:before {
+				font-size: 1.1em;
+				height: 2.5em;
+				line-height: 2.5em;
+				width: 2.5em;
+			}
+		}
+
+		.label {
+			font-size: 0.85em;
+			font-weight: _font(weight-bold);
+		}
+
+		@for $i from 1 through 6 {
+			&.accent#{$i} .icon:before {
+				background-color: _palette(accent#{$i});
+				color: _palette(bg);
+			}
+		}
+	}
