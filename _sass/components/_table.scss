@@ -12,35 +12,41 @@
 	}
 
 	table {
+		border: solid 1px _palette(border);
 		margin: 0 0 _size(element-margin) 0;
+		table-layout: fixed;
 		width: 100%;
 
 		tbody {
 			tr {
-				border: solid 1px _palette(border);
-				border-left: 0;
-				border-right: 0;
+				border-top: solid 1px _palette(border);
 
-				&:nth-child(2n + 1) {
+				&:first-child {
+					border-top: 0;
+				}
+
+				&:nth-child(2n) {
 					background-color: _palette(border-bg);
 				}
 			}
 		}
 
 		td {
-			padding: 0.75em 0.75em;
+			overflow-wrap: break-word;
+			padding: 1em 1.25em;
+			word-wrap: break-word;
 		}
 
 		th {
+			background-color: _palette(border-bg);
+			border-bottom: solid 1px _palette(border);
 			color: _palette(fg-bold);
 			font-size: 0.9em;
 			font-weight: _font(weight-bold);
-			padding: 0 0.75em 0.75em 0.75em;
+			overflow-wrap: break-word;
+			padding: 1em 1.25em;
 			text-align: left;
-		}
-
-		thead {
-			border-bottom: solid 2px _palette(border);
+			word-wrap: break-word;
 		}
 
 		tfoot {

@@ -3,44 +3,40 @@
     {% include head.html %}
     <body>
         {% include header.html %}
-        {% if page.image or page.description %}
-        <section id="banner" class="style2">
-            <div class="inner">
-                <span class="image">
-                    <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
-                </span>
-                <header class="major">
+
+        <section class="offering-hero"{% if page.image %} style="background-image: url('{{ site.baseurl }}/{{ page.image }}');"{% endif %}>
+            <div class="offering-hero-overlay"></div>
+            <div class="inner offering-hero-inner">
+                <div class="offering-hero-text">
                     <h1>{{ page.title }}</h1>
-                </header>
-                <div class="content">
-                    {{ page.description }}
+                    {% if page.description %}<p class="maxim">{{ page.description }}</p>{% endif %}
                 </div>
+                {% if page.cta or page.iframe_src %}
+                <div class="offering-hero-cta">
+                    {% if page.cta %}
+                    <a href="{{ page.cta_link }}" class="button special big">{{ page.cta_link_text }}</a>
+                    {% elsif page.iframe_src %}
+                    <a href="#enquiry-modal" data-modal-open="enquiry-modal" class="button special big">{{ page.cta_title }}</a>
+                    {% endif %}
+                </div>
+                {% endif %}
             </div>
         </section>
-        {% endif %}
+
+        {% assign parts = content | split: '<!--split-->' %}
+
         <div id="main" class="alt">
             <section id="one">
                 <div class="inner">
-                    <div class="row 200%">
-                        {% assign left_col_classes = page.left_col_classes | default: '5u 12u$(medium)' %}
-                        {% assign right_col_classes = page.right_col_classes | default: '7u$ 12u$(medium)' %}
-                        <div class="{{ left_col_classes }}">
-                            {{ content }}
+                    <div class="offering-features">
+                        {{ parts[0] }}
+                    </div>
+                    <div class="offering-layout">
+                        <div class="offering-main">
+                            {{ parts[1] }}
                         </div>
-                        <div class="{{ right_col_classes }}">
-                            {% if page.cta %}
-                            <div class="cta-section">
-                                <div class="cta-content">
-                                    <h2>{{ page.cta }}</h2>
-                                    <a href="{{ page.cta_link }}" class="button special big">{{ page.cta_link_text }}</a>
-                                </div>
-                            </div>
-                            {% elsif page.iframe_src %}
-                            <h2>Get in touch</h2>
-                            <div class="google-form-container">
-                                <iframe src="{{ page.iframe_src }}" frameborder="0" marginheight="0" marginwidth="0" loading="lazy">Loading…</iframe>
-                            </div>
-                            {% endif %}
+                        <div class="offering-faq">
+                            {{ parts[2] }}
                         </div>
                     </div>
                 </div>
@@ -48,6 +44,22 @@
         </div>
                 {% include footer.html %}
         {% include whatsapp-widget.html %}
+
+        {% if page.iframe_src %}
+        <div id="enquiry-modal" class="modal" aria-hidden="true">
+            <div class="modal-overlay" data-modal-close></div>
+            <div class="modal-dialog" role="dialog" aria-modal="true" aria-label="{{ page.cta_title }}">
+                <div class="modal-header">
+                    <h2>Get in touch</h2>
+                    <button type="button" class="modal-close" data-modal-close aria-label="Close">&times;</button>
+                </div>
+                <div class="google-form-container">
+                    <iframe src="{{ page.iframe_src }}" frameborder="0" marginheight="0" marginwidth="0" loading="lazy">Loading…</iframe>
+                </div>
+            </div>
+        </div>
+        <script src="{{ "assets/js/modal.js" | absolute_url }}"></script>
+        {% endif %}
 
     </body>
 </html>
