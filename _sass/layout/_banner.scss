@@ -171,6 +171,20 @@
 						margin-left: 0;
 						margin-bottom: _size(element-margin);
 					}
+
+					.actions li {
+						display: block;
+						margin: 0 0 0.75em 0;
+
+						&:last-child {
+							margin-bottom: 0;
+						}
+
+						.button {
+							display: block;
+							width: 100%;
+						}
+					}
 				}
 			}
 

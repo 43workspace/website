@@ -1,0 +1,68 @@
+///
+/// 43 Workspace
+///
+
+/* Fact list */
+
+	ul.fact-list {
+		column-count: 2;
+		column-gap: 3em;
+		list-style: none;
+		margin: 0 0 _size(element-margin) 0;
+		padding: 0;
+
+		li {
+			break-inside: avoid;
+			margin-bottom: 1.5em;
+			padding-left: 0;
+
+			strong {
+				color: _palette(fg-bold);
+				display: block;
+				margin-bottom: 0.2em;
+			}
+
+			.source {
+				font-size: 0.8em;
+				white-space: nowrap;
+			}
+		}
+
+		@include breakpoint(small) {
+			column-count: 1;
+		}
+	}
+
+/* Centered section headings (about page) */
+
+	.centered-headings {
+		> .inner {
+			text-align: center;
+
+			> header.major {
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			> h3 {
+				text-align: center;
+			}
+
+			> ul.fact-list,
+			> p {
+				text-align: left;
+			}
+		}
+	}
+
+/* Highlighted callout */
+
+	p.callout {
+		border-top: solid 2px _palette(highlight);
+		color: _palette(fg-bold);
+		font-size: 1.1em;
+		font-weight: _font(weight-bold);
+		margin: 0;
+		padding-top: 1em;
+		text-align: center;
+	}

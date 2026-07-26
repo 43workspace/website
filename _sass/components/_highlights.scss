@@ -10,13 +10,26 @@
 		justify-content: flex-start;
 		gap: 1.75em 3em;
 		list-style: none;
-		margin: 0;
+		margin: 0 0 _size(element-margin) 0;
 		padding: 0;
 
 		li {
 			display: flex;
 			align-items: center;
 			padding-left: 0;
+		}
+
+		li > a {
+			border: 0;
+			color: inherit;
+			display: flex;
+			align-items: center;
+			text-decoration: none;
+
+			&:hover .label {
+				color: _palette(highlight);
+				text-decoration: underline;
+			}
 		}
 
 		.icon {

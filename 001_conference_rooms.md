@@ -28,6 +28,12 @@ cta_link: https://app.43work.space
 
 A proper meeting room makes a difference when you're pitching a client or running a client call — instead of squeezing into a cafe table or a cramped home office, you get a real boardroom with working AV. Book it by the hour, so you're only paying for the time you actually use.
 
+Good for:
+
+- Gathering your team on this side of town for an in-person or hybrid call
+- Meeting a customer (and making a good impression while you're at it)
+- Running a hybrid workshop with remote participants dialing in
+
 ### Pricing
 
 | Plan               | Rate                         |
