@@ -1,9 +1,65 @@
 <head>
 	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="{{ page.description | strip_html | default: site.description }}" />
+	<link rel="canonical" href="{{ page.url | absolute_url }}" />
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" sizes="32x32" href="{% link assets/images/favicon-32x32.png %}" />
+	<link rel="icon" type="image/png" sizes="16x16" href="{% link assets/images/favicon-16x16.png %}" />
+	<link rel="apple-touch-icon" href="{% link assets/images/apple-touch-icon.png %}" />
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="{{ site.title }}" />
+	<meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}" />
+	<meta property="og:description" content="{{ page.description | strip_html | default: site.description }}" />
+	<meta property="og:url" content="{{ page.url | absolute_url }}" />
+	<meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ "assets/images/banner.jpg" | absolute_url }}{% endif %}" />
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}" />
+	<meta name="twitter:description" content="{{ page.description | strip_html | default: site.description }}" />
+	<meta name="twitter:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ "assets/images/banner.jpg" | absolute_url }}{% endif %}" />
+
+	<!-- Structured data -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "LocalBusiness",
+		"name": "{{ site.title }}",
+		"description": "{{ site.description | strip_html }}",
+		"image": "{{ "assets/images/banner.jpg" | absolute_url }}",
+		"url": "{{ "/" | absolute_url }}",
+		"telephone": "{{ site.phone }}",
+		"email": "{{ site.email }}",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "{{ site.street_address | replace: ' <br/>', ',' }}",
+			"addressLocality": "{{ site.city }}",
+			"addressRegion": "{{ site.state }}",
+			"postalCode": "{{ site.zip_code }}",
+			"addressCountry": "{{ site.country }}"
+		},
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": 13.017387687302195,
+			"longitude": 77.64492817569842
+		}
+		{% assign social_links = "" | split: "" %}
+		{% for key_value in site.socials %}{% if key_value[1] %}{% assign social_links = social_links | push: key_value[1] %}{% endif %}{% endfor %}
+		{% if social_links.size > 0 %}
+		,"sameAs": [{% for link in social_links %}"{{ link }}"{% unless forloop.last %},{% endunless %}{% endfor %}]
+		{% endif %}
+	}
+	</script>
+
 	<!--[if lte IE 8]><script src="{{ "assets/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
 	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
+
+	{% include analytics.html %}
 </head>

@@ -5,6 +5,7 @@ cta_title:
 description: 'Onboarding'
 image: assets/images/pcabin.jpg
 nav-menu: false
+sitemap: false
 show_tile: false
 google_script_url: https://script.google.com/macros/s/AKfycbyDXUO8ZBH0q_6CbPVxPVO_QPRMOiIsnwWXM8BE1MPlfJNpJldbfJZbE8HyeslEXJ5Dsw/exec
 ---

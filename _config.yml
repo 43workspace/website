@@ -4,7 +4,7 @@ subtitle: Private Cabins, Dedicated Desks & Virtual Offices
 email: partners@43work.space
 description: Private Cabins, Dedicated Desks & Virtual Offices
 baseurl: # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+url: https://43work.space # the base hostname & protocol for your site
 author:
 street_address: FORTY THREE WORKLABS VENTURES LLP <br/>STE1, 232, 2nd floor, 9th Main Road, Kalyan Nagar
 city: Bangalore
@@ -27,6 +27,11 @@ socials:
   Twitter: https://twitter.com/43workspace
   Facebook:
   Slack:
+
+# analytics & ad tracking (leave blank until accounts exist — nothing fires until filled in)
+google_analytics_id: G-BRBMCKNG0Y
+google_ads_id: # Google Ads Conversion ID, e.g. AW-XXXXXXXXX
+meta_pixel_id: # Meta/Facebook Pixel ID
 
 # build settings
 markdown: kramdown

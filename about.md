@@ -193,7 +193,26 @@ show_tile: false
 		<div class="photo-gallery" id="about-gallery">
 			{% assign gallery_images = site.static_files | where_exp: "file", "file.path contains '/assets/images/gallery/'" %}
 			{% for file in gallery_images %}
-			<img src="{{ file.path | relative_url }}" alt="Inside 43 Workspace" />
+			{% case file.name %}
+				{% when 'meeting-room.jpeg' %}{% assign gallery_alt = 'Conference room with video conferencing setup at 43 Workspace' %}
+				{% when 'pcabin.jpg' %}{% assign gallery_alt = 'Private cabin interior at 43 Workspace' %}
+				{% when 'hot-desk.jpeg' %}{% assign gallery_alt = 'Open desk area at 43 Workspace' %}
+				{% when 'voffice.jpg' %}{% assign gallery_alt = 'Office hallway at 43 Workspace' %}
+				{% when 'event-space.jpeg' %}{% assign gallery_alt = 'Events space at 43 Workspace' %}
+				{% when 'croom.jpg' %}{% assign gallery_alt = 'Conference room, wide view, at 43 Workspace' %}
+				{% when 'banner.jpg' %}{% assign gallery_alt = 'Ceiling greenery installation at 43 Workspace' %}
+				{% when 'collage-tile-0.jpg' %}{% assign gallery_alt = 'Glass-walled cabin at 43 Workspace' %}
+				{% when 'collage-tile-1.jpg' %}{% assign gallery_alt = 'Desk row by the window at 43 Workspace' %}
+				{% when 'collage-tile-2.jpg' %}{% assign gallery_alt = 'Hallway with glass-walled cabins at 43 Workspace' %}
+				{% when 'collage-tile-3.jpg' %}{% assign gallery_alt = 'Open desk area with seating at 43 Workspace' %}
+				{% when 'collage-tile-4.jpg' %}{% assign gallery_alt = 'Hallway with wood panel accent at 43 Workspace' %}
+				{% when 'collage-tile-5.jpg' %}{% assign gallery_alt = 'Hallway view of glass cabins at 43 Workspace' %}
+				{% when 'collage-tile-6.jpg' %}{% assign gallery_alt = 'Conference room at 43 Workspace' %}
+				{% when 'collage-tile-7.jpg' %}{% assign gallery_alt = 'Elevator at 43 Workspace' %}
+				{% when 'collage-tile-8.jpg' %}{% assign gallery_alt = 'Conference room, another angle, at 43 Workspace' %}
+				{% else %}{% assign gallery_alt = 'Inside 43 Workspace' %}
+			{% endcase %}
+			<img src="{{ file.path | relative_url }}" alt="{{ gallery_alt }}" loading="lazy" />
 			{% endfor %}
 		</div>
 	</div>
