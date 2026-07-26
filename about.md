@@ -74,26 +74,34 @@ show_tile: false
 			<h2>The space</h2>
 		</header>
 
+		<div class="stat-cards">
+			<div class="stat-card">
+				<span class="stat-number">4,000+</span>
+				<span class="stat-label">sq ft</span>
+			</div>
+			<div class="stat-card">
+				<span class="stat-number">80+</span>
+				<span class="stat-label">Total capacity</span>
+			</div>
+			<div class="stat-card">
+				<span class="stat-number">12</span>
+				<span class="stat-label">Private Cabins</span>
+			</div>
+			<div class="stat-card">
+				<span class="stat-number">18</span>
+				<span class="stat-label">Dedicated Desks</span>
+			</div>
+			<div class="stat-card">
+				<span class="stat-number">8</span>
+				<span class="stat-label">Seater board room</span>
+			</div>
+			<div class="stat-card">
+				<span class="stat-number">50</span>
+				<span class="stat-label">Seater event space</span>
+			</div>
+		</div>
+
 		<ul class="fact-list">
-			<li>
-				<strong>4,000+ sq ft.</strong>
-				Private cabins, open floor seating and a dedicated events space.
-			</li>
-			<li>
-				<strong>Total capacity: 80+.</strong>
-			</li>
-			<li>
-				<strong>12 Private Cabins.</strong>
-			</li>
-			<li>
-				<strong>18 Dedicated Desks.</strong>
-			</li>
-			<li>
-				<strong>8-seater board room.</strong>
-			</li>
-			<li>
-				<strong>50-seater event space.</strong>
-			</li>
 			<li>
 				<strong>Virtual office.</strong>
 				Get an enviable Bangalore 43 address and complementary conference room hours.
@@ -111,12 +119,30 @@ show_tile: false
 
 		<h3>Rock solid utilities</h3>
 		<ul class="fact-list">
-			<li><strong>Reliable internet</strong></li>
-			<li><strong>Power backup</strong></li>
-			<li><strong>Lift</strong></li>
-			<li><strong>Fully air conditioned</strong></li>
-			<li><strong>Security with access control</strong></li>
-			<li><strong>Fully managed — cleaned, daily</strong></li>
+			<li>
+				<strong>Reliable internet.</strong>
+				We use multiple ISPs in a load-balanced mesh of 1Gbps. We've survived multiple outages of all kinds with 4 nines of uptime.
+			</li>
+			<li>
+				<strong>Power backup.</strong>
+				We've BESCOM-proofed our setup, even during the worst, day-long power outages — so that work is not impacted.
+			</li>
+			<li>
+				<strong>Lift.</strong>
+				This is an obvious one, but we recommend you burn those calories to climb up a floor or two.
+			</li>
+			<li>
+				<strong>Fully air conditioned.</strong>
+				All the same, you may not need it in Bangalore weather. &#10084;
+			</li>
+			<li>
+				<strong>Security with access control.</strong>
+				An access-controlled facility (RFID cards and security codes) with 24x7 security and CCTV surveillance.
+			</li>
+			<li>
+				<strong>Fully managed.</strong>
+				Focus on work, not on office.
+			</li>
 		</ul>
 	</div>
 </section>
@@ -127,6 +153,10 @@ show_tile: false
 		<header class="major">
 			<h2>Our Philosophy</h2>
 		</header>
+
+		<blockquote class="quote-headline">
+			<p>Work from an office, the one closest to you. It is a far, far better thing that I do, than I have ever done; it is a far, far better rest I go to than I have ever known.</p>
+		</blockquote>
 
 		<ul class="fact-list">
 			<li>

@@ -70,6 +70,24 @@
 						max-width: 100%;
 					}
 				}
+
+				.learn-more {
+					font-size: 0.7em;
+					font-weight: _font(weight-bold);
+					letter-spacing: _font(letter-spacing-alt);
+					margin: 0.75em 0 0 0;
+					text-align: right;
+					text-transform: uppercase;
+
+					a {
+						border-bottom: 0;
+						color: inherit;
+
+						&:hover {
+							color: _palette(highlight);
+						}
+					}
+				}
 			}
 
 			.content {

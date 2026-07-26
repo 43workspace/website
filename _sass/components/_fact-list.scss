@@ -5,15 +5,15 @@
 /* Fact list */
 
 	ul.fact-list {
-		column-count: 2;
+		display: grid;
 		column-gap: 3em;
+		grid-template-columns: repeat(2, 1fr);
 		list-style: none;
 		margin: 0 0 _size(element-margin) 0;
 		padding: 0;
+		row-gap: 1.5em;
 
 		li {
-			break-inside: avoid;
-			margin-bottom: 1.5em;
 			padding-left: 0;
 
 			strong {
@@ -30,7 +30,7 @@
 		}
 
 		@include breakpoint(small) {
-			column-count: 1;
+			grid-template-columns: 1fr;
 		}
 	}
 
@@ -70,4 +70,29 @@
 		margin: 0;
 		padding-top: 1em;
 		text-align: center;
+	}
+
+/* Quoted headline */
+
+	blockquote.quote-headline {
+		border-left: 0;
+		margin: 0 auto _size(element-margin) auto;
+		max-width: 42em;
+		padding: 0;
+		text-align: center;
+
+		p {
+			color: _palette(fg-bold);
+			font-size: 1.35em;
+			font-style: italic;
+			line-height: 1.5;
+
+			&:before {
+				content: '\201C';
+			}
+
+			&:after {
+				content: '\201D';
+			}
+		}
 	}
