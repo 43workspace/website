@@ -16,9 +16,10 @@
             </header>
             <div class="content stacked">
                 <p style="text-transform: uppercase;">{{ site.description }}</p>
-                <ul class="actions">
+                <ul class="actions even">
                     <li><a href="https://wa.me/{{ site.phone | remove: '+' | remove: '-' }}?text=Hi%2C%20I%27d%20like%20to%20book%20a%20tour%20of%2043%20Workspace" class="button special" target="_blank" rel="noopener noreferrer">Book a Tour</a></li>
                     <li><a href="https://app.43work.space" class="button">Members Login</a></li>
+                    <li><a href="{{ "about.html" | relative_url }}" class="button">About</a></li>
                 </ul>
             </div>
         </div>

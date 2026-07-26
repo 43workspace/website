@@ -20,6 +20,7 @@
 				color: _palette(fg-bold);
 				display: block;
 				margin-bottom: 0.2em;
+				text-align: center;
 			}
 
 			.source {
@@ -49,13 +50,17 @@
 			}
 
 			> ul.fact-list,
-			> p {
+			> p:not(.lead-centered):not(.callout) {
 				text-align: left;
 			}
 		}
 	}
 
 /* Highlighted callout */
+
+	p.lead-centered {
+		text-align: center;
+	}
 
 	p.callout {
 		border-top: solid 2px _palette(highlight);

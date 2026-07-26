@@ -106,6 +106,25 @@
 						margin-top: 0;
 					}
 				}
+
+				.actions.even {
+					@include vendor('display', 'flex');
+					width: 100%;
+
+					li {
+						@include vendor('flex', '1 1 0');
+						margin-left: 1em;
+
+						&:first-child {
+							margin-left: 0;
+						}
+					}
+
+					.button {
+						display: block;
+						width: 100%;
+					}
+				}
 			}
 
 			&.centered {
@@ -183,6 +202,23 @@
 						.button {
 							display: block;
 							width: 100%;
+						}
+					}
+
+					.actions.even {
+						@include vendor('flex-direction', 'column');
+
+						li {
+							@include vendor('flex', '1 1 auto');
+							margin: 0 0 0.75em 0;
+
+							&:first-child {
+								margin-left: 0;
+							}
+
+							&:last-child {
+								margin-bottom: 0;
+							}
 						}
 					}
 				}

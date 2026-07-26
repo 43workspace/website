@@ -34,7 +34,7 @@ show_tile: false
 			<h2>The Location</h2>
 		</header>
 
-		<p>Kalyan Nagar is the new Indiranagar.</p>
+		<p class="lead-centered">Kalyan Nagar is the new Indiranagar.</p>
 
 		<ul class="fact-list">
 			<li>
@@ -43,11 +43,11 @@ show_tile: false
 			</li>
 			<li>
 				<strong>9th Main Road.</strong>
-				A beautiful, tree-lined boulevard of cafes and darshini hotels — <a href="https://maps.app.goo.gl/L9x8zSpKXFd7AYwb6" target="_blank" rel="noopener noreferrer">Coffee Thindi</a>, <a href="https://maps.app.goo.gl/r9Eov418vGgo9EAg7" target="_blank" rel="noopener noreferrer">Aisiri</a>, <a href="https://maps.app.goo.gl/rFnwEqeEiYEWiVF3A" target="_blank" rel="noopener noreferrer">Casaa Coffee</a>, <a href="https://maps.app.goo.gl/K2NzBV2CUxDvQDPUA" target="_blank" rel="noopener noreferrer">Cafe Lazy Lad</a>, Thatha Tea, <a href="https://maps.app.goo.gl/nbfJ2d7nDy2vh6Fe6" target="_blank" rel="noopener noreferrer">Starbucks</a>, <a href="https://maps.app.goo.gl/VM1jB9LnhKgTxmaC6" target="_blank" rel="noopener noreferrer">The Filter Coffee</a> and <a href="https://maps.app.goo.gl/gLvMjqwU7LSA5HnU6" target="_blank" rel="noopener noreferrer">ice-cream</a> (plus Ibaco and Lakeview Milk Bar) all within a few minutes' walk.
+				A beautiful, tree-lined boulevard of cafes and darshini hotels — <a href="https://maps.app.goo.gl/L9x8zSpKXFd7AYwb6" target="_blank" rel="noopener noreferrer">Coffee Thindi</a>, <a href="https://maps.app.goo.gl/r9Eov418vGgo9EAg7" target="_blank" rel="noopener noreferrer">Aisiri</a>, <a href="https://maps.app.goo.gl/rFnwEqeEiYEWiVF3A" target="_blank" rel="noopener noreferrer">Casaa Coffee</a>, <a href="https://maps.app.goo.gl/K2NzBV2CUxDvQDPUA" target="_blank" rel="noopener noreferrer">Cafe Lazy Lad</a>, <a href="https://maps.app.goo.gl/EKvNW4M4aZfeeMHz5" target="_blank" rel="noopener noreferrer">The Lit Cafe</a>, <a href="https://maps.app.goo.gl/nbfJ2d7nDy2vh6Fe6" target="_blank" rel="noopener noreferrer">Starbucks</a>, <a href="https://maps.app.goo.gl/VM1jB9LnhKgTxmaC6" target="_blank" rel="noopener noreferrer">The Filter Coffee</a> and <a href="https://maps.app.goo.gl/gLvMjqwU7LSA5HnU6" target="_blank" rel="noopener noreferrer">Milano</a> (plus Ibaco and Lakeview Milk Bar) all within a few minutes' walk.
 			</li>
 			<li>
 				<strong>Fitness friendly.</strong>
-				<a href="https://maps.app.goo.gl/tnhXxVBybsx57Cuu9" target="_blank" rel="noopener noreferrer">Leon de Maestro</a> is right next door (a favourite among 43 workers), Cult HRBR is 2 minutes away, and <a href="https://maps.app.goo.gl/WsU5tnVXY2djQw247" target="_blank" rel="noopener noreferrer">Bande Park</a> is a 2 minute walk if you'd rather just walk the streets.
+				<a href="https://maps.app.goo.gl/tnhXxVBybsx57Cuu9" target="_blank" rel="noopener noreferrer">Leon de Maestro</a> is right next door (a favourite among 43 workers), and <a href="https://maps.app.goo.gl/RL5XeCZuHcTXPr5P7" target="_blank" rel="noopener noreferrer">Cult HRBR</a> is 2 minutes away — or take a walk in the park at <a href="https://maps.app.goo.gl/WsU5tnVXY2djQw247" target="_blank" rel="noopener noreferrer">Bande Park</a>, a 2 minute walk along the way.
 			</li>
 			<li>
 				<strong>Culturally rooted.</strong>
@@ -55,7 +55,7 @@ show_tile: false
 			</li>
 			<li>
 				<strong>Close to nightlife (and more fun).</strong>
-				<a href="https://maps.app.goo.gl/MjpGURx8u9dfw3rR7" target="_blank" rel="noopener noreferrer">Float Brewery</a>, <a href="https://maps.app.goo.gl/7QwrcAsesD1fFHKS8" target="_blank" rel="noopener noreferrer">Bob's Bar</a>, and the <a href="https://maps.app.goo.gl/dSTHAVHmhejpTjQ47" target="_blank" rel="noopener noreferrer">CMR Road</a> stretch — "Kamanhattan" — all less than 5 minutes away.
+				<a href="https://maps.app.goo.gl/MjpGURx8u9dfw3rR7" target="_blank" rel="noopener noreferrer">Float Brewery</a>, <a href="https://maps.app.goo.gl/7QwrcAsesD1fFHKS8" target="_blank" rel="noopener noreferrer">Bob's Bar</a>, and the CMR Road stretch — <a href="https://maps.app.goo.gl/i8itq32sJeW7pzoZ7" target="_blank" rel="noopener noreferrer">"Kamanhattan"</a> — all less than 5 minutes away.
 			</li>
 			<li>
 				<strong>Plenty of street parking.</strong>
@@ -96,6 +96,8 @@ show_tile: false
 			</li>
 			<li>
 				<strong>Virtual office.</strong>
+				Get an enviable Bangalore 43 address and complementary conference room hours.
+				<a class="source" href="{{ "002_virtual_offices.html" | relative_url }}">See virtual offices →</a>
 			</li>
 			<li>
 				<strong>Comonad, our incubator, is attached.</strong>
