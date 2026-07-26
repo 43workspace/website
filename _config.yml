@@ -30,7 +30,7 @@ socials:
 
 # analytics & ad tracking (leave blank until accounts exist — nothing fires until filled in)
 google_analytics_id: G-BRBMCKNG0Y
-google_ads_id: # Google Ads Conversion ID, e.g. AW-XXXXXXXXX
+google_ads_id: AW-18308117577
 meta_pixel_id: # Meta/Facebook Pixel ID
 
 # build settings
