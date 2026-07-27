@@ -3,7 +3,7 @@ layout: 2-col-page
 title: Events Space
 cta_title: Book an event
 image: assets/images/event-space.jpeg
-description: A room built for bringing people together.
+description: Host 40–50 people for meetups, mixers or workshops.
 nav-menu: true
 cta: Login to book
 cta_link_text: Book Now
@@ -26,7 +26,13 @@ Host workshops, trainings, small meetups or client sessions in our flexible even
 
 ### Why book here
 
-Hosting outside your own office gives an event a bit more occasion — a neutral, professional room for a workshop, meetup or client session, without the overhead of renting a full venue. It's an easy trip for attendees coming from most parts of the city.
+Skip the board room — you get a proper open floor with a stage area, built for an audience rather than eight people around a table. And it costs a fraction of what a function room at a 5-star hotel would run you.
+
+We're also happy to offer the space at cost, or at a discount, for non-profit and civic events that matter to the neighbourhood — just ask.
+
+That's on top of being in [one of Bengaluru's more walkable, well-connected neighbourhoods]({{ "about.html" | relative_url }}), so it's an easy trip for attendees coming from most parts of the city.
+
+<a href="{{ "calendar.html" | relative_url }}" class="button">See what's on the calendar</a>
 
 <!--split-->
 

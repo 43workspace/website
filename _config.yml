@@ -17,6 +17,20 @@ phone: +91-7483256634
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
+# events calendar
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: event
+      sitemap: true
+
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
 # Icons are not shown if value is empty

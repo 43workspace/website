@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <body>
+        {% include header.html %}
+
+        <div id="main" class="alt">
+            <section id="one">
+                <div class="inner">
+                    <header class="offering-title">
+                        <h1>{{ page.title }}</h1>
+                        {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+                    </header>
+
+                    {% assign upcoming_events = site.events | where_exp: "e", "e.date >= site.time" | sort: "date" %}
+
+                    {% if upcoming_events.size > 0 %}
+                    <ul class="event-list">
+                        {% for event in upcoming_events %}
+                        <li>
+                            <a href="{{ event.url | relative_url }}">
+                                <span class="event-date">{{ event.date | date: "%b %-d, %Y" }}</span>
+                                <span class="event-title">{{ event.title }}</span>
+                                {% if event.description %}<span class="event-description">{{ event.description }}</span>{% endif %}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <p>No upcoming events on the calendar right now — check back soon, or <a href="{{ "005_events_space.html" | relative_url }}">get in touch about hosting your own</a>.</p>
+                    {% endif %}
+                </div>
+            </section>
+        </div>
+                {% include footer.html %}
+        {% include whatsapp-widget.html %}
+
+    </body>
+</html>

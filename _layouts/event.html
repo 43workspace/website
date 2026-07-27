@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <body>
+        {% include header.html %}
+
+        <section class="offering-hero"{% if page.image %} style="background-image: url('{{ page.image | relative_url }}');"{% endif %}>
+            <div class="offering-hero-overlay"></div>
+            <div class="inner offering-hero-inner">
+                <div class="offering-hero-text">
+                    <h1>{{ page.title }}</h1>
+                    <p class="maxim">{{ page.date | date: "%A, %B %-d, %Y" }}{% if page.time %} &middot; {{ page.time }}{% endif %}</p>
+                </div>
+                {% if page.rsvp_link %}
+                <div class="offering-hero-cta">
+                    <a href="{{ page.rsvp_link }}" class="button special big" target="_blank" rel="noopener noreferrer">RSVP</a>
+                </div>
+                {% endif %}
+            </div>
+        </section>
+
+        <div id="main" class="alt">
+            <section id="one">
+                <div class="inner">
+                    {{ content }}
+
+                    <p><a href="{{ "calendar.html" | relative_url }}">&larr; Back to all events</a></p>
+                </div>
+            </section>
+        </div>
+                {% include footer.html %}
+        {% include whatsapp-widget.html %}
+
+    </body>
+</html>

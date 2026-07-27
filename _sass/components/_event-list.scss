@@ -1,0 +1,59 @@
+///
+/// 43 Workspace
+///
+
+/* Event list */
+
+	ul.event-list {
+		list-style: none;
+		margin: 0 0 _size(element-margin) 0;
+		padding: 0;
+
+		li {
+			border-top: solid 1px _palette(border);
+			padding-left: 0;
+
+			&:first-child {
+				border-top: 0;
+			}
+		}
+
+		a {
+			border: 0;
+			color: inherit;
+			display: flex;
+			align-items: baseline;
+			flex-wrap: wrap;
+			gap: 0.25em 1.5em;
+			padding: 1.25em 0;
+			text-decoration: none;
+
+			&:hover {
+				.event-title {
+					color: _palette(highlight);
+				}
+			}
+		}
+
+		.event-date {
+			color: _palette(highlight);
+			flex: 0 0 9em;
+			font-size: 0.8em;
+			font-weight: _font(weight-bold);
+			letter-spacing: _font(letter-spacing-alt);
+			text-transform: uppercase;
+		}
+
+		.event-title {
+			color: _palette(fg-bold);
+			flex: 1 1 auto;
+			font-size: 1.1em;
+			font-weight: _font(weight-bold);
+		}
+
+		.event-description {
+			color: rgba(255, 255, 255, 0.7);
+			flex: 1 1 100%;
+			font-size: 0.9em;
+		}
+	}
